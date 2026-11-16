@@ -38,7 +38,7 @@ public class ChatViewModel extends ViewModel {
     public void sendMessage(String prompt) {
         if (Boolean.TRUE.equals(loading.getValue())) return;
         if (prompt.trim().isEmpty()) return;
-        if (API_KEY.equals("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")) {
+        if (API_KEY.equals(null)) {
             append(new Message("Set your Groq API key first.", false));
             return;
         }
