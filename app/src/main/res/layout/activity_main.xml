@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
@@ -17,22 +18,28 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent">
+
+
         <ImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@mipmap/ic_launcher"
+            android:layout_marginEnd="12dp"
             android:contentDescription="App Logo"
-            android:layout_marginEnd="12dp"/>
+            android:src="@drawable/aiai_delasalas"
+            app:srcCompat="@drawable/aiai_delasalas"
+            />
+
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:letterSpacing="0.02"
             android:text="@string/app_name"
+            android:textColor="@color/blue_primary"
             android:textSize="22sp"
             android:textStyle="bold"
-            android:textColor="@color/blue_primary"
-            android:letterSpacing="0.02"/>
+            tools:text="AiAi Chatbot" />
     </LinearLayout>
     <!-- Subtitle "Ask Anything..." -->
     <TextView
