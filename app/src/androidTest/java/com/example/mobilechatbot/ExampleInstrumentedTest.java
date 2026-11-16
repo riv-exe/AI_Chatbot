@@ -1,4 +1,4 @@
-package com.example.aichatbot;
+package com.example.mobilechatbot;
 
 import android.content.Context;
 

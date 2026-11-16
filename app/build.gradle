@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.aichatbot'
+    namespace 'com.example.mobilechatbot'
     compileSdk 33
 
     defaultConfig {

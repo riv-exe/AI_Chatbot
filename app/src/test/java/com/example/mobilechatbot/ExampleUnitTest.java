@@ -1,4 +1,4 @@
-package com.example.aichatbot;
+package com.example.mobilechatbot;
 
 import org.junit.Test;
 
