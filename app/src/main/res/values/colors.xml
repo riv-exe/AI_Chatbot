@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Blue shades -->
-    <color name="blue_light">#FF6B9AC4</color>
-    <color name="blue_primary">#FF2A6F97</color>
-    <color name="blue_dark">#FF1A4B6B</color>
-    <!-- Yellow shades -->
-    <color name="yellow_light">#FFF9E68A</color>
-    <color name="yellow_primary">#FFF4C542</color>
-    <color name="yellow_dark">#FFD4A11E</color>
+    <!-- Main pink shades (dating blue) -->
+    <color name="pink_light">#FFFBCFE8</color>
+    <color name="blue_light">#FFF9A8D4</color>
+    <color name="blue_primary">#FFEC4899</color>
+    <color name="blue_dark">#FFBE185D</color>
+
+    <!-- Secondary pink shades (dating yellow) -->
+    <color name="yellow_light">#FFFCE7F3</color>
+    <color name="yellow_primary">#FFF472B6</color>
+    <color name="yellow_dark">#FFDB2777</color>
+
     <!-- White/Gray shades -->
     <color name="white">#FFFFFFFF</color>
-    <color name="gray_light">#FFF5F5F5</color>
-    <color name="gray_medium">#FFE0E0E0</color>
+    <color name="gray_light">#FFFDF2F8</color>
+    <color name="gray_medium">#FFF5D0E3</color>
     <color name="gray_500">#FF9E9E9E</color>
     <color name="gray_dark">#FF424242</color>
     <color name="black_soft">#FF2C2C2C</color>
     <color name="black">#FF000000</color>
+
     <!-- Legacy colors (for compatibility) -->
     <color name="purple_500">@color/blue_primary</color>
     <color name="purple_700">@color/blue_dark</color>
