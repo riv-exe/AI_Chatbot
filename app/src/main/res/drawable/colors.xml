@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blue shades -->
+    <color name="blue_light">#FF6B9AC4</color>
+    <color name="blue_primary">#FF2A6F97</color>
+    <color name="blue_dark">#FF1A4B6B</color>
+    <!-- Yellow shades -->
+    <color name="yellow_light">#FFF9E68A</color>
+    <color name="yellow_primary">#FFF4C542</color>
+    <color name="yellow_dark">#FFD4A11E</color>
+    <!-- White/Gray shades -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_light">#FFF5F5F5</color>
+    <color name="gray_medium">#FFE0E0E0</color>
+    <color name="gray_500">#FF9E9E9E</color>
+    <color name="gray_dark">#FF424242</color>
+    <color name="black_soft">#FF2C2C2C</color>
+    <color name="black">#FF000000</color>
+    <!-- Legacy colors (for compatibility) -->
+    <color name="purple_500">@color/blue_primary</color>
+    <color name="purple_700">@color/blue_dark</color>
+    <color name="purple_200">@color/blue_light</color>
+    <color name="teal_200">@color/yellow_light</color>
+    <color name="teal_700">@color/yellow_dark</color>
+</resources>
