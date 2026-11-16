@@ -17,11 +17,13 @@ import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
+import java.util.Properties;
 
 import okhttp3.Response;
 public class ChatViewModel extends ViewModel {
+    String apiKey = BuildConfig.API_KEY;
     // Local classroom demo only: never distribute a key in an APK.
-    private static final String API_KEY = "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";
+    private static final String API_KEY = BuildConfig.API_KEY;
     private static final String MODEL = "openai/gpt-oss-20b";
     private final MutableLiveData<List<Message>> messages =
             new MutableLiveData<>(new ArrayList<>());
